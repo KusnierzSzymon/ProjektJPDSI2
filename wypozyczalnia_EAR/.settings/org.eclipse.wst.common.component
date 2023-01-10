@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="jsf_06_EAR">
+                
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="wypozyczalnia_ejb.jar" deploy-path="/" handle="module:/resource/wypozyczalnia_ejb/wypozyczalnia_ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsf_06_web.war" deploy-path="/" handle="module:/resource/wypozyczalnia_web/wypozyczalnia_web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
+    </wb-module>
+    
+</project-modules>
